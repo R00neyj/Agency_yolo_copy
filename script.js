@@ -226,9 +226,11 @@ function mNavToggle() {
 // global
 
 // load
-loading__init();
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
+  loading__init();
   scrollSmoother__init();
+});
+window.addEventListener("load", () => {
   mainSwiper__init();
   sec2Gsap__init();
   sec3Gsap__init();
