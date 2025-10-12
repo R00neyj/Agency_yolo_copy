@@ -102,7 +102,7 @@ function sec2Gsap__init() {
     end: "+=250%",
     scrub: 1,
     animation: timeline,
-    markers: true,
+    // markers: true,
   });
 }
 
