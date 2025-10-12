@@ -102,6 +102,7 @@ function sec2Gsap__init() {
     end: "+=250%",
     scrub: 1,
     animation: timeline,
+    markers: true,
   });
 }
 
@@ -136,6 +137,7 @@ function sec3Gsap__init() {
       end: "bottom 30%",
       scrub: 1,
       animation: tl,
+      // markers: true,
     });
 
     st.refresh();
