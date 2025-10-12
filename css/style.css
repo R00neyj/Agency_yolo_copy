@@ -78,6 +78,10 @@ textarea {
   margin: 0;
 }
 
+iframe {
+  border: none;
+}
+
 html {
   font-size: max(8px, 0.52083333vw);
   overflow-x: hidden;
@@ -492,7 +496,7 @@ body {
   font-size: 9.6rem;
   font-weight: 700;
 }
-.footer > .content-wrap > .marquee-container > .marquee-wrap > .marquee-slide > li > a {
+.footer > .content-wrap > .marquee-container > .marquee-wrap > .marquee-slide a {
   background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.6));
   -webkit-background-clip: text;
           background-clip: text;

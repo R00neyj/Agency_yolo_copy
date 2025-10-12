@@ -80,6 +80,10 @@ textarea {
   margin: 0;
 }
 
+iframe {
+  border: none;
+}
+
 // stylize
 // variable
 $font__max: 0.52083333vw;
@@ -558,7 +562,7 @@ $marquee-gap: 8rem;
       font-size: 9.6rem;
       font-weight: 700;
 
-      > li > a {
+      a {
         background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.6));
         background-clip: text;
         color: transparent;
