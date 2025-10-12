@@ -9,6 +9,9 @@
     <link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <!-- swiper -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -16,13 +19,13 @@
     <div class="loading-page active">
       <div class="text-box">
         <h2>
-          WE SET TRENDS<br />
-          WE BUILD ICONS<br />
-          THIS IS YOLO
+          <span data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">WE SET TRENDS</span><br />
+          <span data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">WE BUILD ICONS</span><br />
+          <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">THIS IS YOLO</span>
         </h2>
       </div>
       <div class="img-box">
-        <img src="image/loading_screen/intro_img01.png" alt="loading-image" id="loading-image" />
+        <img src="image/loading_screen/intro_img01.png" alt="loading-image" id="loading-image" data-aos="fade-up" data-aos-duration="600" />
       </div>
       <div class="percentage"><span class="percentage--number">0</span><span>%</span></div>
     </div>
@@ -372,6 +375,8 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
     <!-- swiper 8 최신버전은 duplicate 오류있음 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

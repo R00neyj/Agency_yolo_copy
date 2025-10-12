@@ -147,6 +147,9 @@ body {
 .loading-page > .text-box h2 {
   font-size: 12.5rem;
 }
+.loading-page > .text-box h2 span {
+  display: inline-block;
+}
 
 .loading-page > .img-box {
   position: absolute;

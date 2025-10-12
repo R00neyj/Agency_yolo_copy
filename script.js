@@ -1,5 +1,6 @@
 console.clear();
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+AOS.init();
 
 function scrollSmoother__init() {
   gsap.matchMedia().add("(min-width: 769px)", () => {
