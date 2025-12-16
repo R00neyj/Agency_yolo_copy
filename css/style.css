@@ -114,6 +114,10 @@ body {
   text-transform: uppercase;
 }
 
+.pin-spacer > div {
+  will-change: transform;
+}
+
 .section > .content-wrap {
   width: 100%;
   max-width: 180.5rem;

@@ -136,6 +136,9 @@ body {
 .upperC {
   text-transform: uppercase;
 }
+.pin-spacer > div {
+  will-change: transform;
+}
 
 // component
 .section > .content-wrap {
